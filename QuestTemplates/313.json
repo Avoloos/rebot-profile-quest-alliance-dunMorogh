@@ -1,0 +1,111 @@
+{
+  "QuestID": 313,
+  "Version": 3,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-10-19T20:21:13.6966164Z",
+  "UpdatedOn": "2014-10-19T20:30:44.6610663Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 7,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Captain Tharran",
+    "EntryId": 40950,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 1,
+    "Position": "-5645.439 -493.2986 396.6111",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "GossipInteractionTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-5475.986 -229.2361 354.377",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Mountaineer Dunstan",
+          "EntryId": 40991
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-5481.921 -226.9892 354.3796",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "GossipIndex": 1,
+      "Dismount": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "GossipInteractionTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-5502.422 -271.9618 354.2409",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Mountaineer Lewin",
+          "EntryId": 40994
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-5499.056 -268.1151 354.2732",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "GossipIndex": 1,
+      "Dismount": false,
+      "GameObjectiveIndex": 2,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "GossipInteractionTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-5387.958 -278.2431 363.0532",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Mountaineer Valgrum",
+          "EntryId": 41056
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-5400.786 -267.6368 363.1499",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "GossipIndex": 1,
+      "Dismount": false,
+      "GameObjectiveIndex": 3,
+      "RunTime": 5.0
+    }
+  ]
+}

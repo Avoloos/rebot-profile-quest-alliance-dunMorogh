@@ -1,0 +1,31 @@
+{
+  "QuestID": 25986,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-10-24T18:13:32.0252626Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Senator Mehr Stonehallow",
+    "EntryId": 1977,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 1,
+    "Position": "-5714.723 -1580 383.2051",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Sergeant Bahrum",
+    "EntryId": 41786,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 1,
+    "Position": "-5522.007 -1920.625 398.958",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

@@ -1,0 +1,85 @@
+{
+  "QuestID": 26118,
+  "Version": 3,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-10-25T18:54:28.5451189Z",
+  "UpdatedOn": "2014-10-25T18:55:54.3134699Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 10,
+  "Frequency": 1,
+  "StartEvent": true,
+  "QuestStart": {
+    "ObjectName": "Moira Thaurissan",
+    "EntryId": 42129,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 1537,
+    "Position": "-4871.583 -1028.043 505.7151",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "UseItemTemplate",
+      "UseMethod": 0,
+      "OverrideCooldown": 0.0,
+      "OverrideCastTime": 0.0,
+      "StayMounted": false,
+      "MinCastRange": 2.0,
+      "DontFilterDeadUnits": false,
+      "UseCount": 1,
+      "TargetUnits": [
+        {
+          "Hotspot": {
+            "Position": "-4797.238 -1003.049 510.812",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Ambassador Slaghammer",
+          "EntryId": 42146
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-4800.545 -1001.323 510.8101",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "Item": [],
+      "BanTime": 120.0,
+      "BanMobCombatAfterUse": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "MoveToTemplate",
+      "Hotspots": [
+        {
+          "Position": "-4852.002 -1040.012 502.1884",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "PreventMounting": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "WaitTemplate",
+      "TimeSeconds": 20.0,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

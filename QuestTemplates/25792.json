@@ -1,0 +1,71 @@
+{
+  "QuestID": 25792,
+  "Version": 4,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-10-24T16:44:51.8009612Z",
+  "UpdatedOn": "2014-10-24T16:51:06.1616379Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 7,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Captain Tharran",
+    "EntryId": 40950,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 1,
+    "Position": "-5645.439 -493.2986 396.6107",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "UseItemTemplate",
+      "UseMethod": 1,
+      "OverrideCooldown": 0.0,
+      "OverrideCastTime": 0.0,
+      "StayMounted": false,
+      "MinCastRange": 4.5,
+      "DontFilterDeadUnits": false,
+      "UseCount": 1,
+      "TargetUnits": [
+        {
+          "Hotspot": {
+            "Position": "-5783.986 -639.507 397.7759",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Constriction Totem",
+          "EntryId": 41202
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-5780.77 -619.5579 398.9528",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5805.321 -773.9572 400.0156",
+          "GroundPosition": "-5805.321 -773.9572 398.5738",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5884.063 -629.4709 399.1211",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "Item": [],
+      "BanTime": 120.0,
+      "BanMobCombatAfterUse": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

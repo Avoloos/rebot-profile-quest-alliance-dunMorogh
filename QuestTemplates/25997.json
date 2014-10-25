@@ -1,0 +1,82 @@
+{
+  "QuestID": 25997,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-10-24T18:29:46.5755123Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Sergeant Bahrum",
+    "EntryId": 41786,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 1,
+    "Position": "-5522.007 -1920.625 398.9589",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-5937.313 -2033.43 402.2267",
+            "GroundPosition": "0 0 0",
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Captain Beld",
+          "EntryId": 6124
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-5937.362 -2035.044 401.5835",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 2,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-5814.689 -1952.39 403.9263",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Dark Iron Spy",
+          "EntryId": 6123
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-5847.966 -1991.449 401.1167",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5925.995 -2036.46 408.2495",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

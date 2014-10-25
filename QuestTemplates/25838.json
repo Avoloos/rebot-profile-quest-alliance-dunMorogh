@@ -1,0 +1,31 @@
+{
+  "QuestID": 25838,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-10-24T16:55:38.6963173Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Captain Tharran",
+    "EntryId": 40950,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 1,
+    "Position": "-5645.439 -493.2986 396.6108",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Delber Cranktoggle",
+    "EntryId": 41363,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 1,
+    "Position": "-5479.412 -645.6684 392.3272",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

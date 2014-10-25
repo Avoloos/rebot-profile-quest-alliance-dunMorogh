@@ -1,0 +1,75 @@
+{
+  "QuestID": 25668,
+  "Version": 2,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-10-19T20:21:14.2324117Z",
+  "UpdatedOn": "2014-10-19T20:26:55.4020373Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 6,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Quartermaster Glynna",
+    "EntryId": 40951,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 1,
+    "Position": "-5642.425 -493.0816 396.6449",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "CollectObjectsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-5565.108 -286.7066 367.1064",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "IsIndoors": true,
+            "ContinentId": 0
+          },
+          "Name": "Pilfered Supplies",
+          "EntryId": 203130
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-5568.392 -287.0328 366.9267",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5510.094 -217.0165 353.971",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5433.238 -278.6512 358.5131",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5377.99 -254.5549 362.2635",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "IsLoot": true,
+      "OpeningCast": true,
+      "NoMovement": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

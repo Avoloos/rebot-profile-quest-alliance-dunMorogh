@@ -1,0 +1,53 @@
+{
+  "QuestID": 25932,
+  "Version": 2,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-10-24T17:22:47.5794684Z",
+  "UpdatedOn": "2014-10-24T17:22:55.8831699Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 9,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Sergeant Flinthammer",
+    "EntryId": 41578,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 1,
+    "Position": "-5538.592 -1311.104 398.7943",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-5550.651 -1305.874 398.3732",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Frostmane Raider",
+          "EntryId": 41603
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-5541.75 -1310.429 398.2628",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

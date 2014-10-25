@@ -1,0 +1,63 @@
+{
+  "QuestID": 25978,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-10-24T18:17:22.9876397Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Sergeant Bahrum",
+    "EntryId": 41786,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 1,
+    "Position": "-5522.007 -1920.625 398.958",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-5614.444 -1932.031 395.3737",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Icy Tomb",
+          "EntryId": 41768
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-5556.564 -1937.255 396.3728",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5632.433 -1911.182 396.3728",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5704.765 -1997.795 396.372",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5651.737 -2038.119 396.3728",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

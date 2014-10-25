@@ -1,0 +1,62 @@
+{
+  "QuestID": 25979,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-10-24T18:18:01.8848559Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Khurgorn Singefeather",
+    "EntryId": 41804,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 1,
+    "Position": "-5518.347 -1910.189 398.9586",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-5543.393 -1952.516 396.9551",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Helm's Bed Surger",
+          "EntryId": 41762
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-5556.564 -1937.255 396.3728",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5632.433 -1911.182 396.3728",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5706.938 -2000.94 396.372",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5648.744 -2041.135 396.3728",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

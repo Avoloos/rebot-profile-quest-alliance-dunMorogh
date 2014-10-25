@@ -1,0 +1,31 @@
+{
+  "QuestID": 25882,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-10-24T17:21:12.4559205Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Slamp Wobblecog",
+    "EntryId": 41298,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 1,
+    "Position": "-5695.066 -923.9097 398.2473",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Sergeant Flinthammer",
+    "EntryId": 41578,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 1,
+    "Position": "-5538.592 -1311.104 398.7943",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": []
+}

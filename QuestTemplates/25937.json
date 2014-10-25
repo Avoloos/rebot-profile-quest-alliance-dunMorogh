@@ -1,0 +1,73 @@
+{
+  "QuestID": 25937,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-10-24T18:03:25.5878948Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Prospector Drugan",
+    "EntryId": 50631,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 1,
+    "Position": "-5673.224 -1594.071 383.2046",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "CollectObjectsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-5748.854 -1615.083 362.1612",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Frozen Artifact",
+          "EntryId": 203385
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-5758.668 -1608.532 359.4413",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5803.8 -1556.788 358.4798",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5682.65 -1699.39 360.7952",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5620.195 -1682.093 362.1774",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5538.034 -1739.895 339.8369",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "IsLoot": true,
+      "OpeningCast": false,
+      "NoMovement": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

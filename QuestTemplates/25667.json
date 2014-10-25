@@ -1,0 +1,82 @@
+{
+  "QuestID": 25667,
+  "Version": 2,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-10-19T20:21:12.9489885Z",
+  "UpdatedOn": "2014-10-19T20:26:57.2491031Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 6,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Captain Tharran",
+    "EntryId": 40950,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 1,
+    "Position": "-5645.439 -493.2986 396.6111",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-5688.872 -288.0256 365.9223",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Young Wendigo",
+          "EntryId": 40940
+        },
+        {
+          "Hotspot": {
+            "Position": "-5631.903 -274.0851 368.5179",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Wendigo",
+          "EntryId": 40941
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-5686.444 -293.6415 367.1538",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5558.717 -239.952 364.4296",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5433.238 -278.6512 358.5131",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5377.99 -254.5549 362.2635",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

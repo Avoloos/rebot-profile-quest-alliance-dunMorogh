@@ -1,0 +1,51 @@
+{
+  "QuestID": 26131,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-10-25T18:59:23.759702Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Mountaineer Barleybrew",
+    "EntryId": 1959,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 1537,
+    "Position": "-4845.087 -1041.21 502.19",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "QuestEnd": {
+    "ObjectName": "Pilot Hammerfoot",
+    "EntryId": 1960,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 38,
+    "Position": "-5526.553 -2380.059 400.2231",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "GossipInteractionTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-4821.125 -1152.396 502.2124",
+            "GroundPosition": "0 0 0",
+            "ContinentId": 0
+          },
+          "Name": "Gryth Thurden",
+          "EntryId": 1573
+        }
+      ],
+      "HotspotsX": [],
+      "GossipIndex": 2,
+      "Dismount": true,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

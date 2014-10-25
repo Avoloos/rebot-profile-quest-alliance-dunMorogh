@@ -1,0 +1,104 @@
+{
+  "QuestID": 432,
+  "Version": 1,
+  "FactionGroup": 2,
+  "UpdatedOn": "2014-10-24T18:03:28.566434Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "QuestStart": {
+    "ObjectName": "Foreman Stonebrow",
+    "EntryId": 1254,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 1,
+    "Position": "-5726.583 -1600.289 385.9009",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-5790.597 -1612.95 359.4312",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Rockjaw Skullthumper",
+          "EntryId": 1115
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-5758.668 -1608.532 359.4413",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5803.8 -1556.788 358.4798",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-5793.103 -1546.939 359.6077",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Rockjaw Bonesnapper",
+          "EntryId": 1117
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-5758.668 -1608.532 359.4413",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5803.8 -1556.788 358.4798",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5685.618 -1703.725 360.7952",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5620.195 -1682.093 362.1774",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5538.034 -1739.895 339.8369",
+          "GroundPosition": "0 0 0",
+          "IsIndoors": true,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": false,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 2,
+      "RunTime": 5.0
+    }
+  ]
+}

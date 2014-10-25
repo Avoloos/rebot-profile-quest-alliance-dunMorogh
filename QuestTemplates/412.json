@@ -1,0 +1,63 @@
+{
+  "QuestID": 412,
+  "Version": 4,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-10-24T16:45:31.8287964Z",
+  "UpdatedOn": "2014-10-24T16:51:07.8928616Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 6,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Razzle Sprysprocket",
+    "EntryId": 1269,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 1,
+    "Position": "-5636.52 -471.158 397.7699",
+    "TurnInType": 0,
+    "MyFaction": 2
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "KillMobsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-5817.221 -650.6493 397.9119",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Frostmane Scavenger",
+          "EntryId": 41146
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-5781.093 -622.9938 397.9709",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5801.347 -778.2988 398.7339",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5884.063 -629.4709 399.1211",
+          "GroundPosition": "0 0 0",
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "ForceLoot": true,
+      "ForcePullMobs": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

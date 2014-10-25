@@ -1,0 +1,103 @@
+{
+  "QuestID": 26094,
+  "Version": 25,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-10-24T19:09:48.2932588Z",
+  "UpdatedOn": "2014-10-25T18:36:04.6503793Z",
+  "Comment": "Widend the range",
+  "CreatedBy": null,
+  "RecommendedLevel": 10,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Commander Stonebreaker",
+    "EntryId": 41853,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 1,
+    "Position": "-4611.321 -1695.379 503.5681",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "UseScript": true,
+  "ScriptText": "{\r\n  \"Children\": [\r\n    {\r\n      \"$type\": \"QuestBlock\",\r\n      \"QuestId\": 26094,\r\n      \"ObjectiveIndex\": 0,\r\n      \"Children\": [\r\n        {\r\n          \"$type\": \"While\",\r\n          \"LoopActions\": {\r\n            \"Children\": [\r\n              {\r\n                \"$type\": \"UseItemTemplateScriptAction\",\r\n                \"Template\": {\r\n                  \"$type\": \"UseItemTemplate\",\r\n                  \"UseMethod\": 5,\r\n                  \"OverrideCooldown\": 3.0,\r\n                  \"OverrideCastTime\": 1.0,\r\n                  \"StayMounted\": false,\r\n                  \"MinCastRange\": 1000.0,\r\n                  \"DontFilterDeadUnits\": false,\r\n                  \"UseCount\": 1,\r\n                  \"TargetUnits\": [\r\n                    {\r\n                      \"Hotspot\": {\r\n                        \"Position\": \"-5252.668 -1516.462 497.8365\",\r\n                        \"GroundPosition\": \"0 0 0\",\r\n                        \"IsGroundPosition\": false,\r\n                        \"ContinentId\": 0\r\n                      },\r\n                      \"Name\": \"Dark Iron Golem\",\r\n                      \"EntryId\": 42003\r\n                    },\r\n                    {\r\n                      \"Hotspot\": {\r\n                        \"Position\": \"-5016.781 -1710.777 497.8362\",\r\n                        \"GroundPosition\": \"0 0 0\",\r\n                        \"IsGroundPosition\": false,\r\n                        \"ContinentId\": 0\r\n                      },\r\n                      \"Name\": \"Dark Iron Invader\",\r\n                      \"EntryId\": 41924\r\n                    },\r\n                    {\r\n                      \"Hotspot\": {\r\n                        \"Position\": \"-5263.589 -1536.079 497.8363\",\r\n                        \"GroundPosition\": \"0 0 0\",\r\n                        \"IsGroundPosition\": false,\r\n                        \"ContinentId\": 0\r\n                      },\r\n                      \"Name\": \"Dark Iron Pyromancer\",\r\n                      \"EntryId\": 41902\r\n                    }\r\n                  ],\r\n                  \"HotspotsX\": [],\r\n                  \"Blackspots\": [],\r\n                  \"Item\": [\r\n                    {\r\n                      \"Name\": \"Iron Hammer Bomb\",\r\n                      \"EntryId\": 56814\r\n                    }\r\n                  ],\r\n                  \"BanTime\": 5.0,\r\n                  \"BanMobCombatAfterUse\": false,\r\n                  \"GameObjectiveIndex\": 1,\r\n                  \"RunTime\": 5.0\r\n                },\r\n                \"TimeLimit\": 0\r\n              }\r\n            ],\r\n            \"IsSpecialElement\": true,\r\n            \"SpecialElementName\": \"Do\",\r\n            \"GroupName\": \"\"\r\n          },\r\n          \"Condition\": {\r\n            \"$type\": \"CSharpCondition\",\r\n            \"CSharpCode\": \"Me.IsOnTaxi\"\r\n          },\r\n          \"IsNot\": false\r\n        },\r\n        {\r\n          \"$type\": \"CollectObjectsTemplateScriptAction\",\r\n          \"Template\": {\r\n            \"$type\": \"CollectObjectsTemplate\",\r\n            \"TargetObjects\": [\r\n              {\r\n                \"Hotspot\": {\r\n                  \"Position\": \"-4545.953 -1640.514 503.3248\",\r\n                  \"GroundPosition\": \"0 0 0\",\r\n                  \"IsGroundPosition\": false,\r\n                  \"ContinentId\": 0\r\n                },\r\n                \"Name\": \"Repaired Bomber\",\r\n                \"EntryId\": 42092\r\n              }\r\n            ],\r\n            \"HotspotsX\": [\r\n              {\r\n                \"Position\": \"-4550.581 -1640.978 503.3251\",\r\n                \"GroundPosition\": \"0 0 0\",\r\n                \"IsGroundPosition\": false,\r\n                \"ContinentId\": 0\r\n              }\r\n            ],\r\n            \"Blackspots\": [],\r\n            \"IsLoot\": true,\r\n            \"OpeningCast\": false,\r\n            \"NoMovement\": false,\r\n            \"GameObjectiveIndex\": 1,\r\n            \"RunTime\": 5.0\r\n          },\r\n          \"TimeLimit\": 0\r\n        },\r\n        {\r\n          \"$type\": \"JumpToBlock\",\r\n          \"Target\": \"1\"\r\n        }\r\n      ],\r\n      \"GroupName\": \"1\"\r\n    }\r\n  ],\r\n  \"GroupName\": \"\"\r\n}",
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "CollectObjectsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-4545.953 -1640.514 503.3246",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Repaired Bomber",
+          "EntryId": 42092
+        }
+      ],
+      "HotspotsX": [],
+      "Blackspots": [],
+      "IsLoot": false,
+      "OpeningCast": false,
+      "NoMovement": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    },
+    {
+      "$type": "UseItemTemplate",
+      "UseMethod": 5,
+      "OverrideCooldown": 3.0,
+      "OverrideCastTime": 0.0,
+      "StayMounted": false,
+      "MinCastRange": 4.5,
+      "DontFilterDeadUnits": false,
+      "UseCount": 1,
+      "TargetUnits": [
+        {
+          "Hotspot": {
+            "Position": "-5079.095 -1702.366 497.8191",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Dark Iron Golem",
+          "EntryId": 42008
+        },
+        {
+          "Hotspot": {
+            "Position": "-5170.688 -1636.216 497.9697",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Dark Iron Invader",
+          "EntryId": 41924
+        },
+        {
+          "Hotspot": {
+            "Position": "-5261.074 -1536.122 497.8365",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Dark Iron Pyromancer",
+          "EntryId": 41902
+        }
+      ],
+      "HotspotsX": [],
+      "Blackspots": [],
+      "Item": [
+        {
+          "Name": "Iron Hammer Bomb",
+          "EntryId": 56814
+        }
+      ],
+      "BanTime": 120.0,
+      "BanMobCombatAfterUse": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}

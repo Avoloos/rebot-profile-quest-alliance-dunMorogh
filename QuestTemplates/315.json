@@ -1,0 +1,66 @@
+{
+  "QuestID": 315,
+  "Version": 4,
+  "FactionGroup": 2,
+  "CreatedOn": "2014-10-19T19:36:09.6179304Z",
+  "UpdatedOn": "2014-10-19T19:47:12.9825438Z",
+  "Comment": "",
+  "CreatedBy": null,
+  "RecommendedLevel": 6,
+  "Frequency": 1,
+  "QuestStart": {
+    "ObjectName": "Rejold Barleybrew",
+    "EntryId": 1374,
+    "AdditionalEntryIds": null,
+    "ContinentId": 0,
+    "ZoneId": 1,
+    "Position": "-5612.144 -516.9948 402.6357",
+    "TurnInType": 0,
+    "IsIndoors": true,
+    "MyFaction": 0
+  },
+  "ActionOrder": 1,
+  "Actions": [
+    {
+      "$type": "CollectObjectsTemplate",
+      "TargetObjects": [
+        {
+          "Hotspot": {
+            "Position": "-5124.247 -270.2222 435.8503",
+            "GroundPosition": "0 0 0",
+            "IsGroundPosition": false,
+            "ContinentId": 0
+          },
+          "Name": "Shimmerweed Basket",
+          "EntryId": 276
+        }
+      ],
+      "HotspotsX": [
+        {
+          "Position": "-5107.82 -234.1301 438.3537",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5167.743 -250.4126 434.8957",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        },
+        {
+          "Position": "-5244.926 -207.6695 436.5654",
+          "GroundPosition": "0 0 0",
+          "IsGroundPosition": false,
+          "ContinentId": 0
+        }
+      ],
+      "Blackspots": [],
+      "IsLoot": true,
+      "OpeningCast": false,
+      "NoMovement": false,
+      "GameObjectiveIndex": 1,
+      "RunTime": 5.0
+    }
+  ]
+}
