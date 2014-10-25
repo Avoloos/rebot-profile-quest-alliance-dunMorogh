@@ -5,8 +5,8 @@ Software [ReBot][1].
 
  
 
-This Repository is not associated with Activision Blizzard Inc. and [ReBot
-][2]may be against their TOS/EULA.
+This Repository is not associated with Activision Blizzard Inc. or [ReBot
+][2] which may be against their TOS/EULA.
 
 [2]: <http://www.rebot.to>
 
