@@ -1,10 +1,13 @@
 {
   "QuestID": 26112,
-  "Version": 1,
+  "Version": 9,
   "FactionGroup": 2,
-  "UpdatedOn": "2014-10-25T18:48:16.2830356Z",
+  "CreatedOn": "2014-11-21T18:23:29.1967561Z",
+  "UpdatedOn": "2014-11-21T19:00:27.7101588Z",
   "Comment": "",
   "CreatedBy": null,
+  "RecommendedLevel": 10,
+  "Frequency": 1,
   "QuestStart": {
     "ObjectName": "Commander Stonebreaker",
     "EntryId": 41853,
@@ -27,50 +30,8 @@
     "IsIndoors": true,
     "MyFaction": 2
   },
+  "UseScript": true,
+  "ScriptText": "{\r\n  \"Children\": [\r\n    {\r\n      \"$type\": \"ActionSequence\",\r\n      \"Children\": [\r\n        {\r\n          \"$type\": \"While\",\r\n          \"LoopActions\": {\r\n            \"Children\": [\r\n              {\r\n                \"$type\": \"Interact\",\r\n                \"Target\": {\r\n                  \"Name\": \"Rixa's Flying Machine\",\r\n                  \"EntryId\": 42175\r\n                },\r\n                \"NumOfTimes\": 0\r\n              }\r\n            ],\r\n            \"IsSpecialElement\": true,\r\n            \"SpecialElementName\": \"Do\",\r\n            \"GroupName\": \"\"\r\n          },\r\n          \"Condition\": {\r\n            \"$type\": \"CSharpCondition\",\r\n            \"CSharpCode\": \"!Me.IsOnTaxi\"\r\n          },\r\n          \"IsNot\": false\r\n        },\r\n        {\r\n          \"$type\": \"Wait\",\r\n          \"Delay\": 50.0,\r\n          \"DelayMax\": 50.0\r\n        },\r\n        {\r\n          \"$type\": \"While\",\r\n          \"LoopActions\": {\r\n            \"Children\": [\r\n              {\r\n                \"$type\": \"UseTaxiTemplateScriptAction\",\r\n                \"Template\": {\r\n                  \"$type\": \"UseTaxiTemplate\",\r\n                  \"Hotspots\": [\r\n                    {\r\n                      \"Position\": \"-5715.986 -1577.264 383.2048\",\r\n                      \"GroundPosition\": \"0 0 0\",\r\n                      \"ContinentId\": 0\r\n                    }\r\n                  ],\r\n                  \"Target\": {\r\n                    \"Hotspot\": {\r\n                      \"Position\": \"-5718.93 -1578.47 383.2047\",\r\n                      \"GroundPosition\": \"0 0 0\",\r\n                      \"ContinentId\": 0\r\n                    },\r\n                    \"Name\": \"Dominic Galebeard\",\r\n                    \"EntryId\": 43702\r\n                  },\r\n                  \"TaxiTarget\": {\r\n                    \"Item1\": \"Ironforge, Dun Morogh\",\r\n                    \"Item2\": \"0.4661611020565\",\r\n                    \"Item3\": \"0.40653544664383\"\r\n                  },\r\n                  \"GameObjectiveIndex\": 1,\r\n                  \"RunTime\": 5.0\r\n                },\r\n                \"TimeLimit\": 0\r\n              }\r\n            ],\r\n            \"IsSpecialElement\": true,\r\n            \"SpecialElementName\": \"Do\",\r\n            \"GroupName\": \"\"\r\n          },\r\n          \"Condition\": {\r\n            \"$type\": \"CSharpCondition\",\r\n            \"CSharpCode\": \"!Me.IsOnTaxi\"\r\n          },\r\n          \"IsNot\": false\r\n        }\r\n      ],\r\n      \"GroupName\": \"1\"\r\n    }\r\n  ],\r\n  \"GroupName\": \"\"\r\n}",
   "ActionOrder": 1,
-  "Actions": [
-    {
-      "$type": "CollectObjectsTemplate",
-      "TargetObjects": [
-        {
-          "Hotspot": {
-            "Position": "-4490.533 -1581.832 509.0052",
-            "GroundPosition": "0 0 0",
-            "IsGroundPosition": false,
-            "ContinentId": 0
-          },
-          "Name": "Rixa's Flying Machine",
-          "EntryId": 42175
-        }
-      ],
-      "HotspotsX": [],
-      "Blackspots": [],
-      "IsLoot": false,
-      "OpeningCast": false,
-      "NoMovement": false,
-      "GameObjectiveIndex": 1,
-      "RunTime": 5.0
-    },
-    {
-      "$type": "UseTaxiTemplate",
-      "Hotspots": [],
-      "Target": {
-        "Hotspot": {
-          "Position": "-5718.93 -1578.47 383.2049",
-          "GroundPosition": "0 0 0",
-          "IsGroundPosition": false,
-          "ContinentId": 0
-        },
-        "Name": "Dominic Galebeard",
-        "EntryId": 43702
-      },
-      "TaxiTarget": {
-        "Item1": "Ironforge, Dun Morogh",
-        "Item2": "0.4661611020565",
-        "Item3": "0.40653544664383"
-      },
-      "GameObjectiveIndex": 1,
-      "RunTime": 5.0
-    }
-  ]
+  "Actions": []
 }

@@ -1,10 +1,13 @@
 {
   "QuestID": 26131,
-  "Version": 1,
+  "Version": 3,
   "FactionGroup": 2,
-  "UpdatedOn": "2014-10-25T18:59:23.759702Z",
+  "CreatedOn": "2014-11-21T18:45:23.1319319Z",
+  "UpdatedOn": "2014-11-21T18:49:46.9874033Z",
   "Comment": "",
   "CreatedBy": null,
+  "RecommendedLevel": 10,
+  "Frequency": 1,
   "QuestStart": {
     "ObjectName": "Mountaineer Barleybrew",
     "EntryId": 1959,
@@ -26,26 +29,8 @@
     "TurnInType": 0,
     "MyFaction": 2
   },
+  "UseScript": true,
+  "ScriptText": "{\r\n  \"Children\": [\r\n    {\r\n      \"$type\": \"ActionSequence\",\r\n      \"Children\": [\r\n        {\r\n          \"$type\": \"While\",\r\n          \"LoopActions\": {\r\n            \"Children\": [\r\n              {\r\n                \"$type\": \"GossipTemplateScriptAction\",\r\n                \"Template\": {\r\n                  \"$type\": \"GossipInteractionTemplate\",\r\n                  \"TargetObjects\": [\r\n                    {\r\n                      \"Hotspot\": {\r\n                        \"Position\": \"-4821.125 -1152.396 502.2115\",\r\n                        \"GroundPosition\": \"0 0 0\",\r\n                        \"IsGroundPosition\": false,\r\n                        \"ContinentId\": 0\r\n                      },\r\n                      \"Name\": \"Gryth Thurden\",\r\n                      \"EntryId\": 1573\r\n                    }\r\n                  ],\r\n                  \"HotspotsX\": [\r\n                    {\r\n                      \"Position\": \"-4823.64 -1154.28 502.2101\",\r\n                      \"GroundPosition\": \"0 0 0\",\r\n                      \"IsGroundPosition\": false,\r\n                      \"ContinentId\": 0\r\n                    }\r\n                  ],\r\n                  \"GossipIndex\": 2,\r\n                  \"Dismount\": true,\r\n                  \"GameObjectiveIndex\": 1,\r\n                  \"RunTime\": 5.0\r\n                },\r\n                \"TimeLimit\": 0\r\n              }\r\n            ],\r\n            \"IsSpecialElement\": true,\r\n            \"SpecialElementName\": \"Do\",\r\n            \"GroupName\": \"\"\r\n          },\r\n          \"Condition\": {\r\n            \"$type\": \"CSharpCondition\",\r\n            \"CSharpCode\": \"!Me.IsOnTaxi\"\r\n          },\r\n          \"IsNot\": false\r\n        }\r\n      ],\r\n      \"GroupName\": \"\"\r\n    }\r\n  ],\r\n  \"GroupName\": \"\"\r\n}",
   "ActionOrder": 1,
-  "Actions": [
-    {
-      "$type": "GossipInteractionTemplate",
-      "TargetObjects": [
-        {
-          "Hotspot": {
-            "Position": "-4821.125 -1152.396 502.2124",
-            "GroundPosition": "0 0 0",
-            "ContinentId": 0
-          },
-          "Name": "Gryth Thurden",
-          "EntryId": 1573
-        }
-      ],
-      "HotspotsX": [],
-      "GossipIndex": 2,
-      "Dismount": true,
-      "GameObjectiveIndex": 1,
-      "RunTime": 5.0
-    }
-  ]
+  "Actions": []
 }
